@@ -1,0 +1,25 @@
+[package]
+name = "trustaction-cli"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+# A modern, lightweight, descriptor-based wallet library
+bdk = { version = "0.28.0",  features = ["keys-bip39"] }
+# The most simple way to add colors in your terminal
+colored = "2.0.4"
+# A `dotenv` implementation for Rust
+dotenv = "0.15.0"
+# Deserialize environment variables into typesafe structs
+envy = "0.4.2"
+# A generic serialization/deserialization framework
+serde = { version = "1.0.188", features = ["derive"] }
+serde_json = "1.0.106"
+# Encoding and decoding data into/from hexadecimal representation
+hex = "0.4.3"
+# It provides safe, write-only and generics-free byte buffers that can be used without initializing them first.
+buffer = "0.1.9"
+# Pure Rust implementation of the SHA-2 hash function family including SHA-224, SHA-256, SHA-384, and SHA-512.
+sha2 = "0.10.7"

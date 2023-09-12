@@ -1,0 +1,10 @@
+target
+# Local environment configuration data
+.env
+# Use full tool from bitcoiner.guide
+seedtool.html
+# The timeline of the future task or pending ones described as a todo list
+task.todo
+# Documents that we use to do that app
+docs/*
+!docs/assets
